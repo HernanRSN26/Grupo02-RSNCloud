@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.lock.hcl
+
+# Credenciales y secretos
+.env
+credentials
+*.pem
+*.key
+
+# Python
+__pycache__/
+.venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
